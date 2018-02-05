@@ -2,7 +2,7 @@ all: makepic.c
 	gcc -o create makepic.c
 
 run: makepic
-	all
+	make all
 	./create
 	display mypic.ppm
 
